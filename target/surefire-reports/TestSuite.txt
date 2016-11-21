@@ -1,0 +1,92 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 3, Time elapsed: 140.119 sec <<< FAILURE! - in TestSuite
+logInTest(AccountActionsTest)  Time elapsed: 9.633 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@role='button' and contains (@title, 'Account')]"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'HP_250_G4', ip: '192.168.100.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\Aleksei\AppData\Local\Temp\scoped_dir13968_25344}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3bacf01b1b471d9057cf2eb1cdd6313a
+*** Element info: {Using=xpath, value=//a[@role='button' and contains (@title, 'Account')]}
+	at AccountActionsTest.logInTest(AccountActionsTest.java:13)
+
+logInTest(AccountActionsTest)  Time elapsed: 9.642 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@role='button' and contains (@title, 'Account')]"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'HP_250_G4', ip: '192.168.100.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\Aleksei\AppData\Local\Temp\scoped_dir11068_13503}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a77ac4500cb1ff8ee21e3a757654a03c
+*** Element info: {Using=xpath, value=//a[@role='button' and contains (@title, 'Account')]}
+	at AccountActionsTest.logInTest(AccountActionsTest.java:13)
+
+logOutTest(AccountActionsTest)  Time elapsed: 7.798 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@role='button' and contains (@title, 'Account')]"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'HP_250_G4', ip: '192.168.100.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\Aleksei\AppData\Local\Temp\scoped_dir12568_10234}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: aa5a526165d6cb1684a37bb2c311f9f7
+*** Element info: {Using=xpath, value=//a[@role='button' and contains (@title, 'Account')]}
+	at AccountActionsTest.logOutTest(AccountActionsTest.java:22)
+
+logOutTest(AccountActionsTest)  Time elapsed: 7.682 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@role='button' and contains (@title, 'Account')]"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'HP_250_G4', ip: '192.168.100.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\Aleksei\AppData\Local\Temp\scoped_dir12648_29437}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c1cd3f32423712f7bd995233b1922d45
+*** Element info: {Using=xpath, value=//a[@role='button' and contains (@title, 'Account')]}
+	at AccountActionsTest.logOutTest(AccountActionsTest.java:22)
+
+sendMailAbilityCheck(MailActionsVerifyTest)  Time elapsed: 10.994 sec  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : There is currently a request to the server pending. You may lose recent changes by navigating away.
+Your message has not been sent.}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds: null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'HP_250_G4', ip: '192.168.100.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\Aleksei\AppData\Local\Temp\scoped_dir11156_4509}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e4e8b6687d70dec43633b212399ed6ea
+*** Element info: {Using=css selector, value=#Email}
+	at MailActionsVerifyTest.sendMailAbilityCheck(MailActionsVerifyTest.java:18)
+
+teardown(MailActionsVerifyTest)  Time elapsed: 11.001 sec  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : There is currently a request to the server pending. You may lose recent changes by navigating away.
+Your message has not been sent.}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds: null
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'HP_250_G4', ip: '192.168.100.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\Aleksei\AppData\Local\Temp\scoped_dir11156_4509}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e4e8b6687d70dec43633b212399ed6ea
+

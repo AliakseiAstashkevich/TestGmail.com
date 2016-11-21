@@ -1,0 +1,10 @@
+base\TestBase.class
+utility\Random.class
+utility\DataProvider.class
+pages\Header.class
+pages\MailPage.class
+pages\LoginPage.class
+pages\NewLetterWindow.class
+base\PageBase.class
+utility\WebDriverBorn.class
+utility\ParserTXT.class
